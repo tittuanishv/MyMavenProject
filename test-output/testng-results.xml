@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FaceBookSuite" duration-ms="11004" started-at="2021-04-19T02:37:58Z" finished-at="2021-04-19T02:38:09Z">
+    <groups>
+    </groups>
+    <test name="FaceBookTst" duration-ms="11004" started-at="2021-04-19T02:37:58Z" finished-at="2021-04-19T02:38:09Z">
+      <class name="testngdemo.org.FaceBookTest">
+        <test-method status="PASS" signature="loadBrowser()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="loadBrowser" is-config="true" duration-ms="9348" started-at="2021-04-19T02:37:58Z" finished-at="2021-04-19T02:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method status="PASS" signature="tc3()[pri:-3, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="tc3" duration-ms="6" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="startDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="startDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+        <test-method status="PASS" signature="endDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="endDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDate -->
+        <test-method status="PASS" signature="startDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="startDate" is-config="true" duration-ms="15" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+        <test-method status="PASS" signature="tc1()[pri:7, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="tc1" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="endDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="endDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDate -->
+        <test-method status="PASS" signature="startDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="startDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+        <test-method status="FAIL" signature="tc4(java.lang.String, java.lang.String)[pri:20, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="tc4" duration-ms="655" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tittuanish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tittu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [tittuish@gmail.com] but found [tittuanish@gmail.com],
+expected [titt] but found [tittu]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [tittuish@gmail.com] but found [tittuanish@gmail.com],
+expected [titt] but found [tittu]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at testngdemo.org.FaceBookTest.tc4(FaceBookTest.java:87)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="startDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="startDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+        <test-method status="PASS" signature="endDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="endDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDate -->
+        <test-method status="FAIL" signature="tc2(java.lang.String, java.lang.String)[pri:22, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="tc2" duration-ms="158" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tittuanish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tittu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [tittuani@gmail.com] but found [tittuanish@gmail.comtittuanish@gmail.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [tittuani@gmail.com] but found [tittuanish@gmail.comtittuanish@gmail.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at testngdemo.org.FaceBookTest.tc2(FaceBookTest.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="endDate()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="endDate" is-config="true" duration-ms="0" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDate -->
+        <test-method status="PASS" signature="endBrowser()[pri:0, instance:testngdemo.org.FaceBookTest@604ed9f0]" name="endBrowser" is-config="true" duration-ms="775" started-at="2021-04-19T02:38:08Z" finished-at="2021-04-19T02:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrowser -->
+      </class> <!-- testngdemo.org.FaceBookTest -->
+    </test> <!-- FaceBookTst -->
+  </suite> <!-- FaceBookSuite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FaceBookSuite]">
+  <test thread-count="5" name="FaceBookTst(failed)">
+    <parameter name="password" value="tittu"/>
+    <parameter name="username" value="tittuanish@gmail.com"/>
+    <classes>
+      <class name="testngdemo.org.FaceBookTest">
+        <methods>
+          <include name="endBrowser"/>
+          <include name="loadBrowser"/>
+          <include name="startDate"/>
+          <include name="tc4" invocation-numbers="0"/>
+          <include name="tc2" invocation-numbers="0"/>
+          <include name="endDate"/>
+        </methods>
+      </class> <!-- testngdemo.org.FaceBookTest -->
+    </classes>
+  </test> <!-- FaceBookTst(failed) -->
+</suite> <!-- Failed suite [FaceBookSuite] -->
